@@ -169,7 +169,7 @@ p {
 }
 
 #fp-nav ul li .fp-tooltip {
-  color: #5f5f5f !important;
+  color: #ffffff !important;
 }
 
 /* Expanding border effect */
@@ -238,7 +238,7 @@ p {
 /* bouncing arrow */
 
 .fa-chevron-down {
-  color: #ff6363 !important;
+  color: #ffffff !important;
   bottom: 10px;
   margin-left: -30px;
   cursor: pointer;
