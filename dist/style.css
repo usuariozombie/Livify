@@ -203,11 +203,31 @@ p {
   padding: 1px 1px 5px 5px;
 }
 
-.aboutme {
-  background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg")
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (max-width: 750px) {
+  #background-video { display: none; }
+  body {
+    background: url("../src/muted_poster.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+/*.aboutme {
+  background: url("../src/background.mp4")
     no-repeat;
   background-size: cover;
-}
+}*/
 
 .aboutme p {
   color: white;
@@ -634,7 +654,7 @@ label {
   animation: 1s blink step-end infinite;
 }
 
-@keyframes "blink" {
+@keyframes blink {
   from,
   to {
     color: transparent;
@@ -654,7 +674,7 @@ label {
   }
 }
 
-@-webkit-keyframes "blink" {
+@-webkit-keyframes blink {
   from,
   to {
     color: transparent;
@@ -664,7 +684,7 @@ label {
   }
 }
 
-@-ms-keyframes "blink" {
+@-ms-keyframes blink {
   from,
   to {
     color: transparent;
@@ -674,7 +694,7 @@ label {
   }
 }
 
-@-o-keyframes "blink" {
+@-o-keyframes blink {
   from,
   to {
     color: transparent;
