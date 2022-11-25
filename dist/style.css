@@ -1,7 +1,7 @@
 /* general styles */
 
 body {
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Raleway", sans-serif;
 }
 
 ul {
@@ -13,13 +13,13 @@ a {
 }
 
 h1 {
-  color: #ff6363;
+  color: #cdcdcd;
   font-weight: bold;
 }
 
 p {
   font-size: 20px;
-  color: #484848;
+  color: #cdcdcd;
 }
 
 .section {
@@ -88,7 +88,7 @@ p {
 }
 
 .fa-bars {
-  display: none !important;
+  display: none;
   color: #ff6363;
   float: right;
   padding: 20px;
@@ -323,10 +323,10 @@ p {
 .skillbar {
   position: relative;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 100%;
   background: #efefef;
-  height: 30px;
+  height: 40px;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -363,8 +363,8 @@ p {
   display: block;
   background: rgba(0, 0, 0, 0.15);
   padding: 0 20px;
-  height: 30px;
-  line-height: 30px;
+  height: 40px;
+  line-height: 40px;
   -webkit-border-top-left-radius: 3px;
   -webkit-border-bottom-left-radius: 3px;
   -moz-border-radius-topleft: 3px;
@@ -374,7 +374,7 @@ p {
 }
 
 .skillbar-bar {
-  height: 30px;
+  height: 40px;
   width: 0px;
   border-radius: 3px;
   -moz-border-radius: 3px;
@@ -386,8 +386,8 @@ p {
   right: 10px;
   top: 0;
   font-size: 11px;
-  height: 30px;
-  line-height: 30px;
+  height: 40px;
+  line-height: 40px;
   color: #ffffff;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -422,13 +422,14 @@ p {
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-  background: rgba(0, 0, 0, 0.62) !important;
+  background: linear-gradient(rgb(13, 30, 179), rgba(36, 36, 150, 0.606));
+  border: 2px solid white;
 }
 
 /* contact us styles */
 
 .fa-paper-plane {
-  color: #484848;
+  color: white;
 }
 
 /* paper plane shake on hover */
