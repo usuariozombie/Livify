@@ -1,7 +1,7 @@
 /* general styles */
 
 body {
-  background-color: grey;
+  background-image: linear-gradient(to bottom right, #100B7D, #D52FFE);
   font-family: "Raleway", sans-serif;
 }
 
@@ -419,18 +419,36 @@ p {
 .content-slide {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 80%;
 }
 
 
 .fp-controlArrow.fp-next {
-  border-color: transparent transparent transparent #ff6363 !important;
-  right: 45px !important;
+  border-color: transparent transparent transparent #ffffff00 !important;
+  right: 20% !important;
+  transition: transform .2s
 }
 
 .fp-controlArrow.fp-prev {
-  border-color: transparent #ff6363 transparent transparent !important;
-  left: 45px !important;
+  border-color: transparent #ffffff00 transparent transparent !important;
+  left: 15% !important;
+  transition: transform .2s
+}
+
+.fp-controlArrow.fp-prev{
+  filter: invert();
+}
+
+.fp-controlArrow.fp-next{
+  filter: invert();
+}
+
+.fp-controlArrow.fp-prev:hover{
+  transform: scale(1.1);
+}
+
+.fp-controlArrow.fp-next:hover{
+  transform: scale(1.1);
 }
 
 #fp-nav ul li a span,
@@ -785,4 +803,18 @@ label {
   .aboutme h1 {
     font-size: 28px;
   }
+}
+
+ark-cookiebar{
+  background-image: linear-gradient(to bottom right, rgb(82, 9, 45), rgb(139, 8, 165));
+
+}
+
+ark-cookiebar button:hover{
+  background-color: #b689c4;
+  -webkit-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
