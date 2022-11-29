@@ -426,29 +426,32 @@ p {
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent #ffffff00 !important;
   right: 20% !important;
-  transition: transform .2s
+  transition: transform .2s;
 }
 
 .fp-controlArrow.fp-prev {
   border-color: transparent #ffffff00 transparent transparent !important;
   left: 15% !important;
-  transition: transform .2s
 }
 
-.fp-controlArrow.fp-prev{
+.fp-controlArrow.fp-prev img{
   filter: invert();
+  transition: transform .2s;
 }
 
-.fp-controlArrow.fp-next{
+.fp-controlArrow.fp-next img{
   filter: invert();
+  transition: transform .2s;
 }
 
-.fp-controlArrow.fp-prev:hover{
-  transform: scale(1.1);
+.fp-controlArrow.fp-prev img:hover{
+  transform: scale(1.1); 
+  filter: invert(100%) sepia(87%) saturate(1998%) hue-rotate(245deg) brightness(108%) contrast(93%) !important;
 }
 
-.fp-controlArrow.fp-next:hover{
+.fp-controlArrow.fp-next img:hover{
   transform: scale(1.1);
+  filter: invert(100%) sepia(87%) saturate(1998%) hue-rotate(245deg) brightness(108%) contrast(93%) !important;
 }
 
 #fp-nav ul li a span,
