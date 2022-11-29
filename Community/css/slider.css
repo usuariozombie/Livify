@@ -51,17 +51,20 @@
 	width: 100px;
 	height: 100px;
 	margin: -25px 0 0 0;
-	background-color: #5104ab;
+	background-color: #5204ab00;
 	color: #fff;
 	font-family: inherit;
 	font-weight: bold;
 	border: none;
 	cursor: pointer;
 	transition: 0.1s background-color;
+	transition: transform .2s;
+	filter:invert()
 }
 
 .pieces-slider__button:hover {
-	background: #5f3abf;
+	transform: scale(1.1);
+	filter: invert(100%) sepia(87%) saturate(1998%) hue-rotate(245deg) brightness(108%) contrast(93%)
 }
 
 .pieces-slider__button--next {
