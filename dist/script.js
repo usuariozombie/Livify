@@ -133,8 +133,8 @@ $(document).ready(function () {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ["home", "about", "portfolio", "contact", "connect"],
-    anchors: ["home", "about", "portfolio", "contact", "connect"],
+    navigationTooltips: ["livify", "services", "download", "contact"],
+    anchors: ["livify", "services", "download", "contact"],
     menu: "#myMenu",
     fitToSection: false,
 
