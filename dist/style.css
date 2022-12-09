@@ -577,13 +577,14 @@ label {
 
 
 .footer {
-  background: #fff;
+  background: rgba(49, 47, 49, 0.329);
   max-width: 1728px;
   margin: 0 auto;
   position: relative;
 }
 
 .footer__content {
+  margin-left: 5%;
   padding: 40px 0;
   display: grid
 }
@@ -720,27 +721,10 @@ label {
   }
 }
 
-.footer__content__logo--tpc {
-  width: 150px
-}
-
-@media(max-width: 767px) {
-  .footer__content__logo--tpc {
-    width: 100px
-  }
-}
-
-.footer__content__logo--niantic {
-  width: 60px
-}
-
-.footer__content__logo--bbb {
-  width: 80px
-}
 
 .footer__legallinks {
-  background: #e2f7f78c;
-  display: flex;
+  background: rgba(49, 47, 49, 0.562);
+  display: flex;  
   justify-content: center;
   -moz-column-gap: 48px;
   column-gap: 48px;
@@ -793,6 +777,8 @@ ark-cookiebar button:active{
 }
 
 .footer__disclaimers {
+  color: white;
+  background: rgba(49, 47, 49, 0.329);
   padding: 32px 0
 }
 
