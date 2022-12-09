@@ -11,6 +11,11 @@ ul {
 
 a {
   text-decoration: none !important;
+  color: white;
+}
+
+a:hover {
+  color: #ff6363 !important;
 }
 
 h1 {
@@ -578,7 +583,7 @@ label {
 
 .footer {
   background: rgba(49, 47, 49, 0.329);
-  max-width: 1728px;
+  max-width: 100vw;
   margin: 0 auto;
   position: relative;
 }
@@ -779,7 +784,11 @@ ark-cookiebar button:active{
 .footer__disclaimers {
   color: white;
   background: rgba(49, 47, 49, 0.329);
-  padding: 32px 0
+  padding: 32px 0;
+}
+
+.footer__disclaimer{
+  margin: 0 10% 0 10%;
 }
 
 @media(max-width: 767px) {
