@@ -422,6 +422,16 @@ p {
   max-width: 80%;
 }
 
+#downloadslide{
+  background-color: #2e18259c;
+}
+
+.fadeBlock{
+  max-width: 60%;
+  margin: 0 auto; 
+  margin-top: 2.5%;
+}
+
 
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent #ffffff00 !important;
@@ -511,6 +521,7 @@ p {
 
 .contact-form {
   padding: 0px 15px 0px 15px;
+  overflow: hidden;
 }
 
 .form-control {

@@ -133,8 +133,8 @@ $(document).ready(function () {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ["livify", "services", "download", "contact"],
-    anchors: ["livify", "services", "download", "contact"],
+    navigationTooltips: ["livify", "services", "download", "contact", "footer"],
+    anchors: ["livify", "services", "download", "contact", "footer"],
     menu: "#myMenu",
     fitToSection: false,
 
@@ -191,6 +191,7 @@ $(document).ready(function () {
   $(document).on("click", "#contact", function () {
     $.fn.fullpage.moveTo(4);
   });
+  
 
   // smooth scrolling
   $(function () {
